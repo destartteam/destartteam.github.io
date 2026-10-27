@@ -1,0 +1,54 @@
+
+:root {
+  /* Colors — світла тема */
+  --color-bg:          #ffffff;
+  --color-bg-alt:      #f6f7f9;
+  --color-surface:     #ffffff;
+  --color-surface-2:   #f3f4f7;
+  --color-border:      rgba(15, 20, 35, 0.09);
+  --color-border-hover:rgba(214, 150, 0, 0.45);
+
+  --color-text:        #11151f;
+  --color-text-muted:  #5a6273;
+  --color-text-dim:    #8a91a1;
+
+  /* Жовтий — для кнопок і фонів; темніший — для тексту на білому (читабельність) */
+  --color-accent:      #ffc83d;
+  --color-accent-hover:#ffbb14;
+  --color-accent-ink:  #14110a;
+  --color-accent-text: #b07800;
+  --color-accent-soft: rgba(255, 200, 61, 0.18);
+
+  --color-header-bg:   rgba(255, 255, 255, 0.88);
+
+  --color-error:       #d93636;
+
+  /* Typography */
+  --font-display: 'Unbounded', 'Manrope', system-ui, sans-serif;
+  --font-body:    'Manrope', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --fs-hero:  clamp(2.25rem, 6vw, 4.75rem);
+  --fs-h2:    clamp(1.75rem, 3.6vw, 3rem);
+  --fs-h3:    1.25rem;
+  --fs-lead:  clamp(1.05rem, 1.6vw, 1.25rem);
+  --fs-body:  1rem;
+  --fs-small: 0.875rem;
+  --fs-tiny:  0.78rem;
+
+  /* Spacing & layout */
+  --container: 1200px;
+  --gutter:    16px;
+  --section-y: clamp(72px, 10vw, 128px);
+
+  --radius-sm: 10px;
+  --radius:    18px;
+  --radius-lg: 28px;
+  --radius-pill: 999px;
+
+  /* Effects */
+  --shadow-card: 0 1px 2px rgba(15, 20, 35, 0.04), 0 8px 24px -12px rgba(15, 20, 35, 0.08);
+  --shadow-glow: 0 0 0 1px var(--color-border-hover), 0 24px 50px -24px rgba(214, 150, 0, 0.35);
+  --transition: 0.25s cubic-bezier(0.2, 0.7, 0.2, 1);
+
+  --header-h: 76px;
+}
